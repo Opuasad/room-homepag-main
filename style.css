@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    
+}
+.row{
+    display:flex ;
+}
+.div-1{
+    width: 60%;
+    padding: 50px 30px;
+    background-image:url("img/desktop-image-hero-1.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slider 9s infinite linear;
+    
+}
+@keyframes slider{
+    0%{ background-image:url("img/desktop-image-hero-1.jpg");}
+    35%{background-image: url("img/desktop-image-hero-2.jpg");}
+    75%{ background-image:url("img/desktop-image-hero-3.jpg");}
+}
+.div-1 h2{
+    color: #fff;
+    margin-top: -5px;
+}
+.div-2{
+    width: 40%;
+    display:grid;
+    margin: auto;
+    padding: 30px 32px;
+    position: relative;
+
+}
+.div-2 h1{
+    padding: 0px  0px 0px 0px;
+    font-weight: 700;
+}
+.div-2 p{
+    padding: 20px 0px;
+    color:hsl(0, 0%, 63%);
+}
+.div-2 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 10px;
+    color:hsl(0, 0%, 63%);
+    font-size: 12px;
+    
+}
+li{
+    list-style-type: none;
+    float: left;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.img img{
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #fff;
+    margin: 0;
+}
+.img img:hover{
+    background-color: hsl(0, 0%, 27%);
+}
+.img{
+    margin-left: -30px;
+    margin-top: 150px;
+    margin-bottom: -142px;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+
+}
+.text{
+    padding: 50px;
+    
+}
+.text p{
+    color: gray;
+}
+
